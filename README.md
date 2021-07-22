@@ -1,5 +1,5 @@
 # Welcome to BottAll :leaves:
-<p align="center"><img src="https://i.imgur.com/h6VypWs.png" width="300" float="center"></p><br>
+<p align="center"><img src="https://github.com/mrjacopong/BottAll/blob/main/Latex%20source/images/bottall_logo_blue.PNG" width="300" float="center"></p><br>
 
 Hello there!
 This is **BottAll**,  a University Buisness Plan project created by some students of the master course of Electric Vehicle Engineering at [MUNER  University](https://motorvehicleuniversity.com).
