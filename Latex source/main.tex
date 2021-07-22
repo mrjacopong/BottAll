@@ -1,0 +1,84 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[absolute,overlay]{textpos}
+  \setlength{\TPHorizModule}{1mm}
+  \setlength{\TPVertModule}{1mm}
+\usepackage{siunitx}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{cleveref}
+%\usepackage{blindtext}
+%\usepackage{showframe}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{G}{>{\centering}p{0.2\textwidth}}
+\usepackage{placeins}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{subfig}
+
+\include{defs}
+
+\usepackage{lipsum}
+
+%%%%%%%%%%%%%%%
+% Title Page
+\title{BottAll Business Plan}
+\author{F. Romani \newline J. Ferretti \newline M. Davario \newline R. La Rocca \newline T. Bertoncello \newline / Lunch Team / Bologna}
+\date{\today}
+%%%%%%%%%%%%%%%
+
+\begin{document}
+   \begin{textblock}{200}(50,125)
+		\includegraphics[width=0.5\textwidth]{images/image.png}
+    \end{textblock}
+
+\maketitle
+
+
+\tableofcontents
+\clearpage
+
+
+\include{executivesummary}
+
+\include{introduction}
+
+\include{marketandindustry}
+
+\include{product}
+
+\include{Business_model}
+
+\include{roadmap}
+
+\include{financing}
+
+\include{appendix}
+
+\begin{thebibliography}{99}
+
+%\bibitem{citazione}\href{link}{TESTO \\\textit{(LINK NEL TESTO)\\}}
+
+
+\bibitem{dati_pranzo}{nomisma.it Le abitudini degli italiani in pausa pranzo: la ricerca per CIRFOOD \\\textit{(https://www.nomisma.it/dati-sulla-pausa-pranzo/)}}
+
+\bibitem{industria_borracce_wired}{wired.it L'industria delle borracce lancia la sfida all'acqua in bottiglia \\\textit{(https://www.wired.it/economia/business/2020/05/05/borracce-acqua-bottiglia/?refresh\_ce=)}}
+
+\bibitem{industria_borracce}{marketwatch.com Europe Reusable Water Bottle Market Overview 2020: Top Countries Data, Analysis, Market Size, Growth, Opportunities and Forecast to 2025 \\\textit{(https://www.marketwatch.com/press-release/europe-reusable-water-bottle-market-overview-2020-top-countries-data-analysis-market-size-growth-opportunities-and-forecast-to-2025-2020-09-03)}}
+
+\bibitem{industria_lunchbox}{marketwatch.com Lunch Box Market Share and Size 2020 Global Growth, New Updates, Trends, Industry Expansion, Demand by Regions Opportunities, Challenges and Forecast till 2025 \\\textit{(https://www.marketwatch.com/press-release/lunch-box-market-share-and-size-2020-global-growth-new-updates-trends-industry-expansion-demand-by-regions-opportunities-challenges-and-forecast-till-2025-2020-10-06)}}
+
+\bibitem{sugo_e_pasta}{barilla.com WHAT IS THE CORRECT RATIO OF SAUCE TO PASTA? \\\textit{(https://www.barilla.com/en-us/help/cooking-solutions/how-much-sauce-for-pasta)}}
+
+\bibitem{energia_pasta}{physicspages.com HEAT CAPACITY OF PASTA \\\textit{(https://physicspages.com/pdf/Schroeder/Schroeder\%20Problems\%2001.42.pdf)}}
+
+\bibitem{CE_Certification}{i3cglobal.com CE Certification price \\\textit{(https://www.i3cglobal.com/ce-certification-cost/)}}
+
+\end{thebibliography}
+
+
+\end{document}          
